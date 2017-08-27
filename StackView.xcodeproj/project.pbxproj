@@ -14,6 +14,8 @@
 		810AA4B91F3C7ACA00941ECC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 810AA4B71F3C7ACA00941ECC /* LaunchScreen.storyboard */; };
 		810AA4C41F3C7ACA00941ECC /* StackViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AA4C31F3C7ACA00941ECC /* StackViewTests.swift */; };
 		810AA4CF1F3C7ACA00941ECC /* StackViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AA4CE1F3C7ACA00941ECC /* StackViewUITests.swift */; };
+		810AA4DD1F3C7CE400941ECC /* ViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AA4DC1F3C7CE400941ECC /* ViewViewController.swift */; };
+		810AA4DF1F3C7D2E00941ECC /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 810AA4DE1F3C7D2E00941ECC /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		810AA4CA1F3C7ACA00941ECC /* StackViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StackViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		810AA4CE1F3C7ACA00941ECC /* StackViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewUITests.swift; sourceTree = "<group>"; };
 		810AA4D01F3C7ACA00941ECC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		810AA4DC1F3C7CE400941ECC /* ViewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewViewController.swift; sourceTree = "<group>"; };
+		810AA4DE1F3C7D2E00941ECC /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				810AA4AE1F3C7ACA00941ECC /* AppDelegate.swift */,
 				810AA4B01F3C7ACA00941ECC /* ViewController.swift */,
+				810AA4DC1F3C7CE400941ECC /* ViewViewController.swift */,
+				810AA4DE1F3C7D2E00941ECC /* TableViewController.swift */,
 				810AA4B21F3C7ACA00941ECC /* Main.storyboard */,
 				810AA4B51F3C7ACA00941ECC /* Assets.xcassets */,
 				810AA4B71F3C7ACA00941ECC /* LaunchScreen.storyboard */,
@@ -257,7 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				810AA4B11F3C7ACA00941ECC /* ViewController.swift in Sources */,
+				810AA4DD1F3C7CE400941ECC /* ViewViewController.swift in Sources */,
 				810AA4AF1F3C7ACA00941ECC /* AppDelegate.swift in Sources */,
+				810AA4DF1F3C7D2E00941ECC /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,9 +431,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rajubd49.StackView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajubd49.stackview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,9 +446,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = StackView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.rajubd49.StackView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajubd49.stackview;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -522,6 +534,7 @@
 				810AA4D51F3C7ACA00941ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810AA4D61F3C7ACA00941ECC /* Build configuration list for PBXNativeTarget "StackViewTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +543,7 @@
 				810AA4D81F3C7ACA00941ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		810AA4D91F3C7ACA00941ECC /* Build configuration list for PBXNativeTarget "StackViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +552,7 @@
 				810AA4DB1F3C7ACA00941ECC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
