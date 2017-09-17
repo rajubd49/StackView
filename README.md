@@ -20,4 +20,4 @@ A Simple and customizable Device Orientation Based Simple UIStackView implementa
 
 ### License ###
 
-* Copyright 2017 @ Raju.
+StackView is released under the MIT License. [See LICENSE](https://github.com/rajubd49/StackView/blob/master/LICENSE) for details.
